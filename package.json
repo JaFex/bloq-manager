@@ -1,0 +1,37 @@
+{
+  "name": "bloqit-engineering-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false src/index.ts",
+    "test": "jest",
+    "build": "tsup",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.5",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "envalid": "^8.0.0",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "http-status-codes": "^2.3.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  }
+}
